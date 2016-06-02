@@ -31,7 +31,7 @@ export default class App extends Component {
         var subjectIndex = parseInt(number.toString()[2]);
         return (
             <div>
-                <img src={artwork[artworkIndex]} height="100px"/>
+                <img src={artwork[artworkIndex]} style={{width: "100%", maxWidth: 700}}/>
                 <h3>Color: {color[colorIndex]}</h3>
                 <h3>Medium: {medium[mediumIndex]}</h3>
                 <h3>Subject: {subject[subjectIndex]}</h3>
